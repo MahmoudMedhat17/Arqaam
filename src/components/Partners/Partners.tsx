@@ -24,12 +24,12 @@ const Partners = () => {
           Partners
         </h3>
         <CarouselContent>
-          <CarouselItem className="flex justify-center items-center gap-8 md:gap-24">
+          <CarouselItem className="flex justify-center items-center gap-8 md:gap-32">
             {partnersData.map((item, index) => (
               <img
                 key={index}
                 src={item.image}
-                className="w-[100px] md:w-[150px]"
+                className="w-[100px] md:w-[180px]"
               />
             ))}
           </CarouselItem>
